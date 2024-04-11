@@ -1,6 +1,11 @@
 { # 0. Seeds ----------------------------------------------------------------
  
-  ## New code
+  { ## 0.1 - Spatial -------------------------------------------------------------------
+    "code/spatial/1-gdb-import.R"
+    "code/spatial/2-parquet-export.R"
+    "code/spatial/3-eda.R"
+    "code/crosswalks/crosswalks.R"
+  }
   
   { ## 0.2 - Line level metadata -------------------------------------------------------------------
     "code/line-level-sources/v1.0/line_level_health_survey_child_v1.0.R"
